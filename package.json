@@ -18,7 +18,7 @@
     "jquery": "^3.1.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-router-dom": "^4.2.2",
+    "react-router-dom": "^4.3.1",
     "superagent": "^3.3.2"
   },
   "scripts": {
@@ -26,5 +26,17 @@
     "build": "react-scripts build",
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
